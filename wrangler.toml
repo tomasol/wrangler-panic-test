@@ -1,11 +1,8 @@
-name = "" # todo
+name = "worker-panic-hook"
 workers_dev = true
 
 main = "build/worker/shim.mjs"
-compatibility_date = "2022-01-20"
-
-[vars]
-WORKERS_RS_VERSION = "0.0.9"
+compatibility_date = "2022-08-31"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
